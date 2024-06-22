@@ -11,7 +11,18 @@ export default {
 </script>
 
 <template>
-  <Header />
-  <Sidebar />
-  
+  <div class="container">
+    <Header />
+    <Sidebar />
+  </div>  
 </template>
+
+<style scoped>
+  .container {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+</style>
